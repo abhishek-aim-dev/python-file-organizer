@@ -1,35 +1,80 @@
-# Python File Organizer
+# 📁 Python File Organizer
 
-A beginner-friendly Python project that automatically organizes files into folders based on their file extensions.
+A beginner-friendly Python automation project that organizes files into categorized folders based on their file extensions.
 
-## Features
+## 🚀 Features
 
-* Categorizes files by extension.
-* Creates category folders automatically.
+* Automatically organizes files by extension.
+* Creates category folders when needed.
 * Moves supported files into their respective folders.
 * Reports files that cannot be categorized.
 * Uses Python's built-in `os` and `shutil` modules.
 
-## Technologies Used
+## 🛠️ Technologies Used
 
-* Python
-* os
-* shutil
+* **Language:** Python
+* **Modules:** `os`, `shutil`
 
-## How to Run
+## 📂 Example
 
-1. Install Python.
-2. Clone or download this repository.
-3. Open the project folder in VS Code.
-4. Run the program using:
+Before running:
 
-   `python main.py`
+```text
+Downloads/
+├── photo.jpg
+├── document.pdf
+├── song.mp3
+└── script.py
+```
 
-## Safety
+After running:
 
-Test the program on a temporary folder containing sample files before using it on important directories.
+```text
+Downloads/
+├── Images/
+│   └── photo.jpg
+├── Documents/
+│   └── document.pdf
+├── Audio/
+│   └── song.mp3
+└── Python/
+    └── script.py
+```
 
-## Project Status
+*Folder names and categories depend on the extensions supported by the program.*
 
-Beginner Python project — features and error handling may be expanded over time.
+## ⚙️ Requirements
 
+* Python 3.x
+* No external packages required.
+
+## ▶️ How to Run
+
+1. Install Python 3 if it isn't already installed.
+2. Download or clone this repository.
+3. Open a terminal in the project folder.
+4. Run:
+
+```bash
+python main.py
+```
+
+If your system uses the Python launcher, you can try:
+
+```bash
+py main.py
+```
+
+## 🎯 What I Learned
+
+* Working with files and directories in Python.
+* Using `os` to interact with the file system.
+* Using `shutil` to move files.
+* Automating repetitive tasks.
+* Organizing and documenting a software project.
+
+## 👨‍💻 Author
+
+**Abhishek Mishra**
+
+GitHub: [abhi-kun007](https://github.com/abhi-kun007)
